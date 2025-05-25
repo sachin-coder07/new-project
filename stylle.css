@@ -1,6 +1,40 @@
+* {
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .nav-bar {
-    height: 50px;
+    height: 60px;
     width: 100%;
     background-color: aqua;
     border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.first-content a {
+    font-size: 30px;
+    margin-left: 40px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+.content2 a {
+    margin-right: 25px;
+    font-size: 15px;
+    color: black;
+}
+
+.content2 button {
+    margin-right: 25px;
+    height: 30px;
+    width: 150px;
+    color: white;
+    background-color: blue;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
 }
